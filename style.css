@@ -1,0 +1,70 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+}
+.heading ul{
+    display: flex;
+}
+.heading ul li{
+    margin-left: 20px;
+    list-style-type: none;
+    
+}
+.heading ul li a{
+    text-decoration: none;
+    color: black;
+}
+.input{
+    width: 260px;
+    height: 36px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+}
+.btn{
+    width: 40px;
+    height: 36px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.card-wrapper{
+    display: flex;
+}
+.aside{
+   flex: 1;
+    
+}
+.right{
+       flex: 5;
+       display: flex;
+       margin: 5px 5px;
+       flex-wrap: wrap;
+       
+}
+.aside li{
+    padding: 10px 20px;
+    list-style-type: none;
+}
+.aside li:hover{
+    background-color: lightgray;
+    border-radius: 40px;
+}
+.aside a{
+    text-decoration: none;
+    color: black;
+}
+hr{
+    border: 1px solid gray;
+}
+.card-1{
+    width: 24%;
+    margin: 0px 6px;
+}
+.body{
+    display: flex;
+}
+
